@@ -1,9 +1,8 @@
 /**
- * Configuration for Manoindia AI services.
- * Now primarily using Google Gemini for a more integrated experience.
+ * Configuration for Manoindia.
+ * External API configuration has been removed to simplify the platform.
  */
-export const API_CONFIG = {
-  model: "gemini-3-flash-preview",
+export const MANO_CONFIG = {
   supportContact: {
     phone: "8709736094",
     email: "info@mayramurti.com",
